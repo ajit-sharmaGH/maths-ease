@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 :root {
+    font-family: 'Montserrat', sans-serif;
     --primary: #ff6600;
     --secondary: #ff771f;
     --tertiary: #ff8c3c;
@@ -30,7 +33,7 @@
     --text-color: #282828;
     --hotpink: hotpink;
     --transparent-black: #000001ab;
-    --color-off-white: #F3F4F6;
+    --color-off-white: #5a5a5a;
     --barcelona-red: #C3023A;
     --barcelona-blue: #054C96;
     --barcelona-yellow: #FFED02;
@@ -56,10 +59,22 @@
     --iframe-bg-color: #161616
 }
 
+.dark-theme {
+    --text-color: #282828;
+}
+
+.light-theme {
+    --text-color: var(--sky-blue);
+}
+
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
+}
+
+.bg-color {
+    background-color: var(--pink);
 }
 
 html {
@@ -116,6 +131,7 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
+    font-weight: normal;
 }
 
 
