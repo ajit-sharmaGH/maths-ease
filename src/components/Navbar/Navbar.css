@@ -1,0 +1,32 @@
+@import '../home/home.css';
+.others_header-part {
+    min-height: 4.5rem;
+}
+
+.ham-burger {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.navbar_list-names {
+    border-top: 1px solid var(--secondary-bg-color);
+    border-bottom: 1px solid var(--secondary-bg-color);
+    text-align: center;
+    background-color: var(--nav-color);
+    /* position: absolute;
+    width: 100%;
+    z-index: 1; */
+}
+
+.navbar_list-names>ul>li {
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.link_tag {
+    color: var(--secondary-bg-color);
+}
+
+.link_tag:hover {
+    color: var(--hotpink);
+}

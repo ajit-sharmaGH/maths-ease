@@ -59,12 +59,19 @@
     --iframe-bg-color: #161616
 }
 
+.bg-theme-changer {
+    background-color: var(--text-color);
+    color: var(--heading-color);
+}
+
 .dark-theme {
     --text-color: #282828;
+    --heading-color: #ffff;
 }
 
 .light-theme {
     --text-color: var(--sky-blue);
+    --heading-color: #333;
 }
 
 * {
@@ -256,6 +263,10 @@ li {
 
 .margin-2 {
     margin: 2rem;
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 .margin-3 {
