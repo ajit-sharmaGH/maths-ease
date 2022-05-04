@@ -1,0 +1,59 @@
+.si_calculator_body {
+    min-height: 100vh;
+}
+
+@media screen and (max-width:600px) {
+    .si_input_container>input {
+        flex-grow: 1;
+        margin: 10px;
+        padding: 10px;
+        font-size: 1.1rem;
+        outline-color: var(--green);
+        border-radius: 5px;
+        border: 1px solid var(--blueviolet);
+    }
+    .si_headings {
+        margin: 0 10px;
+    }
+    .si-btn {
+        display: flex;
+    }
+    .si-btn>button {
+        flex-grow: 1;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .si-section {
+        width: 30rem;
+    }
+    .si_input_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .si_input_container>input {
+        flex-grow: 1;
+        width: 30rem;
+        margin: 10px;
+        padding: 10px;
+        font-size: 1.1rem;
+        outline-color: var(--green);
+        border-radius: 5px;
+        border: 1px solid var(--blueviolet);
+    }
+    .si_headings {
+        width: 30rem;
+    }
+    .si-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .si-btn>button {
+        flex-grow: 1;
+        margin: 10px;
+        max-width: 30rem;
+    }
+}
