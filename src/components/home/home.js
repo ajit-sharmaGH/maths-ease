@@ -25,19 +25,19 @@ const Home = () => {
         </div>
       </header>
       <div className="sections_container flex-wrap-center">
-        <Link to ="/calculator" className="section flex-center">
+        <Link to="/calculator" className="section flex-center">
           <h3>Simple Calculator </h3>
         </Link>
         <Link to="/si" className="section flex-center">
           <h3>Calculate Simple Interest </h3>
         </Link>
-        <Link to ="/ci" className="section flex-center">
+        <Link to="/ci" className="section flex-center">
           <h3>Calculate Compound Interest </h3>
         </Link>
-        <Link to ="/bmi" className="section flex-center">
+        <Link to="/bmi" className="section flex-center">
           <h3>Calculate Body Mass Index </h3>
         </Link>
-        <Link to ="/crm" className="section flex-center">
+        <Link to="/crm" className="section flex-center">
           <h3>Cash Register Manager </h3>
         </Link>
       </div>
