@@ -3,7 +3,7 @@ import { useState } from "react";
 const SIcomponent = () => {
   const [principle, setPrinciple] = useState(0);
   const [rate, setRate] = useState(0);
-  const [time, setTime] = useState(0);
+  const [time, setTime] = useState(1);
   const [si, setSi] = useState(0);
   const [amount, setAmount] = useState(0);
 
