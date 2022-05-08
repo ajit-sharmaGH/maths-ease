@@ -1,0 +1,71 @@
+.bmi_body {
+    min-height: 100vh;
+}
+
+.bmi_input_container>input {
+    flex-grow: 1;
+    margin: 10px;
+    background-color: var(--wheat);
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: monster;
+    outline-color: var(--green);
+    border-radius: 5px;
+    border: 1px solid var(--blueviolet);
+}
+
+.bmi_headings {
+    margin: 0 12px;
+    margin-right: auto;
+}
+
+.select-property {
+    margin: 0 10px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: monster;
+    outline: none;
+}
+
+.bmi-reload-btn,
+.bmi-btn {
+    display: flex;
+}
+
+.bmi-reload-btn>button,
+.bmi-btn>button {
+    flex-grow: 1;
+    margin: 10px;
+    color: var(--black);
+    border: 1px solid var(--blue);
+    background-color: var(--alert-success);
+}
+
+.bmi-reload-btn>button {
+    background-color: var(--secondary-bg-color);
+}
+
+@media screen and (min-width:500px) {
+    .bmi_input_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bmi_input_container>input {
+        width: 30rem;
+    }
+    .selection-unit {
+        width: 31.4rem;
+    }
+    .bmi-reload-btn,
+    .bmi-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bmi-reload-btn>button,
+    .bmi-btn>button {
+        max-width: 30rem;
+    }
+}
