@@ -62,7 +62,7 @@ const CIcomponent = () => {
           </select>
         </div>{" "}
         <div className="ci-btn">
-          <button onClick={calcCi}> Click to Know Simple Interest </button>{" "}
+          <button onClick={calcCi}> Click to Know Compound Interest </button>{" "}
         </div>{" "}
         {principle.length > 0 && rate.length > 0 && time.length > 0 ? (
           <div>
