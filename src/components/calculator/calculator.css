@@ -35,7 +35,8 @@
     color: var(--dark);
 }
 
-button {
+.digits button,
+.operators button {
     appearance: none;
     border: none;
     color: var(--white);
