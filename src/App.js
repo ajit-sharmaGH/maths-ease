@@ -1,4 +1,5 @@
 import { CalculatorPage } from "./pages/calculator.js";
+import { CashRegisterPage } from "./pages/cashRegisterPage";
 import "./components/calculator/calculator.css";
 import { HomePage } from "./pages/home.js";
 import { SIpage } from "./pages/simpleInt.js";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/si" element={<SIpage />} />{" "}
         <Route path="/ci" element={<CIpage />} />{" "}
         <Route path="/bmi" element={<BodyMassIndexPage />} />{" "}
+        <Route path="/crm" element={<CashRegisterPage />} />{" "}
       </Routes>{" "}
     </Router>
   );
