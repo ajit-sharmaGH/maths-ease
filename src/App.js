@@ -1,6 +1,6 @@
+import "./components/calculator/calculator.css";
 import { CalculatorPage } from "./pages/calculator.js";
 import { CashRegisterPage } from "./pages/cashRegisterPage";
-import "./components/calculator/calculator.css";
 import { HomePage } from "./pages/home.js";
 import { SIpage } from "./pages/simpleInt.js";
 import { CIpage } from "./pages/compoundInt.js";
