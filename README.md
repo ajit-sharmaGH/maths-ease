@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Maths-Ease
+- Maths Ease is a mini app which is made in order to calculate the daily faced problems and has following features !
+- - Home page
+- - Simple Calculator 
+- - Simple Interest
+- - Compound Interest
+- - Body Mass Index
+- - Cash Register Manager
+- Tech Used
+- - useState hook
+- - useContext
+- - brower routers
+- Home Page
+- - it has light mode and dark mode 
+- - suitable for both desktop and mobile
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- In the project directory, you can run:
 
-## Available Scripts
+  ### `npm start`
 
-In the project directory, you can run:
+  Runs the app in the development mode.\
+  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm start`
+  ![image](https://user-images.githubusercontent.com/80311905/169443203-6b8d0c16-e193-4db2-919a-4eb9bf24abe3.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  Simple Calculator
+  ![image](https://user-images.githubusercontent.com/80311905/169443346-6bd068cb-c261-491f-a45d-f38963f7dad9.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ - Simple Interests
+ - it calculates the simple interest
+  ![image](https://user-images.githubusercontent.com/80311905/169443460-d604463a-cc67-4a99-afb5-4363a5087602.png)
 
-### `npm test`
+ - Compound Interest
+ - it calculates the compound interest
+  ![image](https://user-images.githubusercontent.com/80311905/169443521-f559574d-14b2-4348-81a5-a5b366868c58.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - Body Mass Index
+ - it calculates the BMI of persons by which one can know about his/her body health situation
+  ![image](https://user-images.githubusercontent.com/80311905/169443577-617d55c6-510e-4679-b9f3-8e22064bd3a4.png)
 
-### `npm run build`
+ - Cash Register Manager
+ - it returns the number of notes the number of times with respect to the available notes in the lobby
+  ![image](https://user-images.githubusercontent.com/80311905/169443630-d18c72d6-3e7c-479d-8647-c7bff32e85a3.png)
+ 
+   Routing Features
+   ![image](https://user-images.githubusercontent.com/80311905/169443934-e5a85273-f40c-42e4-a556-a4fa1933f1f4.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
