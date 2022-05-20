@@ -1,4 +1,4 @@
-// import "./calculator.css";
+import "./calculator.css";
 import { useState } from "react";
 const Calculator = () => {
   const [calc, setCalc] = useState("");
@@ -39,8 +39,11 @@ const Calculator = () => {
     setCalc(value);
   };
 
-  return (
-    <div className="calculator_app bg-theme-changer">
+  return (<div className="bg-theme-changer flex-col">
+        <h3 className="flex-center mt-3">SIMPLE CALCULATOR</h3>
+
+    <div className="calculator_app flex-col">
+
       <div className="calculator">
         <div className="display">
           {result ? <span> ({result}) </span> : ""}
@@ -62,6 +65,7 @@ const Calculator = () => {
           <button onClick={calculate}>= </button>
         </div>
       </div>
+    </div>
     </div>
   );
 };

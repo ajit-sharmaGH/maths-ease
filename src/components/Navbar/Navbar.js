@@ -17,23 +17,24 @@ const Navbar = () => {
     <>
       <header className="header-body flex-wrap others_header-part">
         <div className="header_logo">
-          <p>Maths Ease</p>
-        </div>
+          <p> Maths Ease </p>{" "}
+        </div>{" "}
         <div>
-          {theme === "dark-theme" ? (
+          {" "}
+          {theme === "moon-icon" ? (
             <span onClick={toggleTheme} className="dark_light-icon cursor">
-              <i className="fa-solid fa-sun"></i>
+              <i className="fa-solid fa-sun"> </i>{" "}
             </span>
           ) : (
             <span onClick={toggleTheme} className="dark_light-icon cursor">
-              <i className="fa-solid fa-moon"></i>
+              <i className="fa-solid fa-moon"> </i>{" "}
             </span>
-          )}
-        </div>
+          )}{" "}
+        </div>{" "}
         <div className="ham-burger cursor" onClick={toggleBurger}>
-          <i className="fa-solid fa-bars"></i>
-        </div>
-      </header>
+          <i className="fa-solid fa-bars"> </i>{" "}
+        </div>{" "}
+      </header>{" "}
       <div
         className="navbar_list-names"
         style={{ display: toggle, transition: "0.5s ease-in" }}
@@ -41,36 +42,36 @@ const Navbar = () => {
         <ul className="flex-col-center">
           <li>
             <Link to="/" className="link_tag">
-              Home
-            </Link>
-          </li>
+              Home{" "}
+            </Link>{" "}
+          </li>{" "}
           <li>
             <Link to="/calculator" className="link_tag">
-              Simple Calculator
-            </Link>
-          </li>
+              Simple Calculator{" "}
+            </Link>{" "}
+          </li>{" "}
           <li>
             <Link to="/si" className="link_tag">
-              Simple Interest
-            </Link>
-          </li>
+              Simple Interest{" "}
+            </Link>{" "}
+          </li>{" "}
           <li>
             <Link to="/ci" className="link_tag">
-              compound interest
-            </Link>
-          </li>
+              compound interest{" "}
+            </Link>{" "}
+          </li>{" "}
           <li>
             <Link to="/bmi" className="link_tag">
-              body mass index
+              body mass index{" "}
             </Link>{" "}
-          </li>
+          </li>{" "}
           <li>
             <Link to="/crm" className="link_tag">
-              cash register manager
-            </Link>
-          </li>
-        </ul>
-      </div>
+              cash register manager{" "}
+            </Link>{" "}
+          </li>{" "}
+        </ul>{" "}
+      </div>{" "}
     </>
   );
 };

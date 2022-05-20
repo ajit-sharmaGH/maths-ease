@@ -110,7 +110,7 @@ export const CashRegister = () => {
             );
           })}
         </tbody>
-        <tbody className="table-bg-color table-body">
+        <tbody className="table-body">
           <span className="spaning-text">Notes Available</span>
           {numberOfNotes.map((note) => {
             return (

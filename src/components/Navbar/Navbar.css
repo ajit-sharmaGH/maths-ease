@@ -13,9 +13,6 @@
     border-bottom: 1px solid var(--secondary-bg-color);
     text-align: center;
     background-color: var(--nav-color);
-    /* position: absolute;
-    width: 100%;
-    z-index: 1; */
 }
 
 .navbar_list-names>ul>li {
